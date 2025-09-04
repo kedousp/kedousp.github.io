@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>蝌蚪视频 - 最新地址发布页</title>
+  <meta name="description" content="蝌蚪视频 - 最新地址发布页">
+  <meta name="keywords" content="蝌蚪视频 - 最新地址发布页">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      background: #f2f2f2;
+      color: #333;
+    }
+    .container {
+      max-width: 600px;
+      margin: 50px auto;
+      padding: 30px;
+      background: #fff;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      text-align: center;
+    }
+    h1 {
+      color: #e91e63;
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
+    p.subtitle {
+      font-size: 15px;
+      color: #666;
+      margin-bottom: 30px;
+    }
+    .link-box {
+      margin: 15px 0;
+    }
+    .link-btn {
+      display: block;
+      background-color: #4CAF50;
+      color: white;
+      padding: 15px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .link-btn:hover {
+      background-color: #45a049;
+    }
+    .tips {
+      font-size: 13px;
+      color: #999;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>蝌蚪视频 - 最新发布页</h1>
+    <p class="subtitle">请务必收藏本页面，避免迷路。下方为最新地址入口：</p>
+
+    <div class="link-box">
+      <div class="link-btn" data-url="https://video.kedou03.xyz/rukou/">入口 ①：video.kedou01.xyz</div>
+    </div>
+    <div class="link-box">
+      <div class="link-btn" data-url="https://video.kedou04.xyz/rukou/">入口 ②：video.kedou02.xyz</div>
+    </div>
+    <div class="link-box">
+      <div class="link-btn" data-url="https://华柃g.kedously.xyz/小蝌蚪/">入口 ③（备用）：永久可用</div>
+    </div>
+
+    <div class="tips">
+      本页仅作最新地址导航使用，如遇无法访问请耐心等待或更换网络尝试。
+    </div>
+  </div>
+
+  <!-- JS 跳转逻辑 -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      document.querySelectorAll('.link-btn').forEach(function (el) {
+        el.addEventListener('click', function () {
+          const url = this.getAttribute('data-url');
+          if (url) {
+            window.open(url, '_blank'); // 或改成 window.location.href = url; 用于当前窗口跳转
+          }
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>
